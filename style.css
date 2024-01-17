@@ -29,6 +29,7 @@ body {
 #welcome-section {
   display: block;
   margin-top: 30px;
+  margin-bottom: 0;
   background-color: var(--main-color);
   height: 300px;
   width: 100%;
@@ -53,6 +54,55 @@ button {
   margin-top: 30px;
   background: linear-gradient(45deg, var(--main-color), white);
 }
-#projects {
-  padding: 2rem;
+#project-section {
+  display: block;
+  margin-top: 0;
+  width: 100%;
+  background: linear-gradient(45deg, white, rgba(164, 161, 161, 0.322));
+}
+#project-section h2 {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background: linear-gradient(45deg, var(--main-color), white);
+}
+.one,
+.two,
+.three,
+.four {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-wrap: pretty;
+  justify-content: center;
+}
+#projects:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#projects a {
+  flex-basis: 50%;
+  text-align: center;
+  color: rgba(81, 32, 81, 0.995);
+  text-decoration: none;
+  border: 1px solid rgb(81, 32, 81);
+  border-radius: 2px;
+  margin: 10px;
+  margin-bottom: none;
+  padding: 20px;
+  background-color: rgb(248, 247, 247);
+}
+.four {
+  padding-bottom: 30px;
+}
+footer {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: #dfdfdf;
+  background-color: var(--main-color);
+  margin: 0;
 }
