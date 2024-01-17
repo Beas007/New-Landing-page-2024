@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  height: 100vh;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+
+#welcome-section {
+  height: 100vh;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+#projects {
+  padding: 2rem;
+}
+
+.project-tile {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
